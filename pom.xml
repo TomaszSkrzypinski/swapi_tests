@@ -92,11 +92,6 @@
             <version>${junit-jupiter-params}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>${maven-surefire-plugin}</version>
-        </dependency>
 
     </dependencies>
 
