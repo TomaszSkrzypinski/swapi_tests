@@ -28,9 +28,15 @@
         <jackson-databind>2.10.1</jackson-databind>
         <lombok-version>1.18.12</lombok-version>
         <junit-jupiter-params>5.5.2</junit-jupiter-params>
+        <jaxb-osgi>2.2.10</jaxb-osgi>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-osgi</artifactId>
+            <version>${jaxb-osgi}</version>
+        </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
